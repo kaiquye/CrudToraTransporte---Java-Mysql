@@ -8,7 +8,5 @@ Dashboard;
  -Cadastrar pesquisar por motorista e caminhão
 ![cpm3](https://user-images.githubusercontent.com/69175890/143806265-c914ff08-a3d5-40f6-88d8-16df04cbc18c.PNG)
 
-
-Db: 
-
+Banco de dados bem simples.
 ![dbimg](https://user-images.githubusercontent.com/69175890/143804143-a2fd4326-d3f6-4948-b712-edce9adc8a9a.PNG)
