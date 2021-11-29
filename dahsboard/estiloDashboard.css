@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  
+    
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(87, 87, 87);
+    grid-template-columns: repeat(4, 1fr);
+ 
+ 
+    
+}
+ 
+
+header{
+    
+     
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/5;
+    
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+     
+}
+
+.divUm{
+
+    background-color: rgb(8, 68, 17);
+    grid-row: 1/1;
+    grid-column: 1/4;
+     display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.divUm h1{
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divDois{
+    grid-column: 1/4;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(13, 102, 27);
+    grid-row: 2/2;
+}
+.divDois ul a:hover{
+background-color: rgb(8, 68, 17);
+}
+
+ 
+.divDois ul a{
+
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(13, 102, 27);
+
+
+}
+.divMain{
+    
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+}
+ 
+ 
+ 
+.imagemSection{
+    
+    height: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/tora-frota-scanias.jpeg);
+    grid-column: 1/4;
+    grid-row: 1/5;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+ 
+ 
+ 
+ 
+.divLogo{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 200px;
+    background-color: rgb(20, 148, 52);
+    opacity: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.sectionUm{
+    background-color: rgb(2, 102, 60);
+    grid-column: 1/4;
+    grid-row: 5/6;
+    text-align: center;
+    padding: 45px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+.sectionDois{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/4;
+    grid-row: 6/8;
+    
+}
+.sectioDoisEsquedo{
+    opacity: 70%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+        
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px ;
+    border: 1px solid black;
+    background-image: url(img/caminhoneiro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 80px;
+    border-end-start-radius: 80px;
+    color: white;
+}
+.sectioDoisDireito{
+       
+   display: grid;
+   justify-content: center;
+   align-items: center;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+
+}
+.sectioDoisDireito div input{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(58, 129, 65);
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: rgb(220, 238, 222);
+    
+}
+.sectioDoisDireito input{
+    background-color: rgb(42, 75, 42);
+    color: white;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px;
+    border: none;
+}
+.sectioDoisDireito a{
+    padding: 10px;
+    background-color: rgb(10, 90, 34);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-top-left-radius: 17px;
+    border-end-end-radius: 17px;
+    font-size: 15px;
+}
+
+.sectioDoisDireito a:hover{
+    background-color: green;
+}
+.sectionTres{
+    background-color: rgb(2, 102, 60);
+    grid-column: 1/4;
+    grid-row: 8/9;
+    text-align: center;
+    padding: 45px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sectionQuatro{
+    grid-column: 1/4;
+    grid-row: 9/11;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+}
+.sectionCaminhaoEsquerda{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/Caminhao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 660px;
+    text-decoration: none;
+
+
+    opacity: 70%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+        
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px ;
+    border: 1px solid black;
+     
+ 
+    background-position: center;
+    border-top-right-radius: 80px;
+    border-end-start-radius: 80px;
+    color: white;
+    
+}
+.sectionCaminhaoDireita{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+     width: 70%;
+     background-color: rgb(255, 255, 255);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px ;
+ 
+}
+.sectionCaminhaoDireita div input{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(58, 129, 65);
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: rgb(220, 238, 222);
+}
+.sectionCaminhaoDireita input{
+
+    background-color: rgb(42, 75, 42);
+    color: white;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px;
+    border: none;
+}
+ 
+.sectionCaminhaoDireita a{
+    padding: 10px;
+    background-color: rgb(10, 90, 34);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-top-left-radius: 17px;
+    border-end-end-radius: 17px;
+    font-size: 15px;
+}
+
+.sectionCaminhaoDireita a:hover{
+    background-color: green;
+}

@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(img/tora-frota-scanias.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+ 
+
+}
+main{
+    width: 100vw;
+    height: 100vh;
+     
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+section{
+    opacity: 87%;
+    display: grid;
+    height: 500px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: repeat(2, 1fr);
+}
+.divLogin{
+    
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+ 
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+}
+.divLogin div{
+    margin: 10px;
+}
+.divButton{
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+.divImagem{
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/2;
+}
+label{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divButton input{
+    padding:5px 100px;
+}
+.login{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.divButton input:hover{
+    background-color: #196b19;
+    color: white;
+}
